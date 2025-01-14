@@ -19,7 +19,8 @@ print(one_crore)
 
 x,myName,y = 2,"fasal",6
 print(x,myName,y)
-
-AGE = 23
+ 
+AGE = 23 #if u make any variable as CAPITALIZED it means it is a constant
 print(AGE)
 AGE = 12
+
