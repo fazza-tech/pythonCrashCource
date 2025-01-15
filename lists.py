@@ -1,52 +1,39 @@
 
-#create a list for bycicles
-bicycles = ["trek","canndondale","redline","specialized"]
-print(bicycles[0].title())
-
-memory = f"My first cycle was a {bicycles[0].title()}."
-print(memory)
-
-names = ["Johna","Jesus","Muhammed","Moses"]
-print(names)
-pbuh = "Peace and Blessing Up On Him"
-print(f"Assalamu Alaykum {names[2].upper()} {pbuh}.")
-
-
-#Modifying lists
-
-motorcycles = ["suzuki","honda","yamaha", "apprelia"]
+motorcycles = ['bmw', 'KTM', 'ducati']
 print(motorcycles)
-motorcycles[0] = "ducati"
-print(motorcycles)
-motorcycles.append("suzuki")
-print(motorcycles)
-motorcycles.insert(0,"apprelia")
-del motorcycles[3]
-popped_motor = motorcycles.pop()
 
-popped_exp = motorcycles.pop(1)
-msg = f"I sold the {popped_exp.title()} ,bcz its Expensive "
+motorcycles.append('RE') #one argument
+print(motorcycles)
+poped_bike = motorcycles.pop()#end of the list
+print(poped_bike)
+msg = f"im last owned bike is {poped_bike}"
 print(msg)
 
-nxt_exp = "apprelia"
-motorcycles.remove(nxt_exp)
-print(motorcycles)
-msg2 = f"I also sold {nxt_exp.title()} bcz its also expensive"
-print(msg2)
-
-numbers = []
-
-numbers.append("9895998571")
-numbers.append("79022246337")
-
-members = ["Malavika","Akshara","Black"]
-msg1 = f"Hi {members[0]}, please come and eat my cake😁"
+first_bike = motorcycles.pop(0).title()
+print(first_bike)
+msg1 = f"My first bike was a  {first_bike.title()}"
 print(msg1)
 
-members.insert(0, 'angel')
-print(members[0].title())
+too_expensive = ('ducati')
+motorcycles.remove(too_expensive)
+print(type(too_expensive))
+msg2 = f"{too_expensive.title()} very expensive"
+print(msg2)
+print(motorcycles)
+motorcycles.insert(0,'Access 125')
+print(motorcycles)
 
-unfriend = members.pop(2)
-print(members)
-print(f"{unfriend} she is unfriended.")
+#len() , sorted() , .sort, .reverse
+
+cars = ['bmw', 'subaru','masarati', 'mercedes']
+
+print(len(cars)-1)
+
+print(sorted(cars))
+print(cars)
+cars.sort()
+print(cars)
+
+cars.reverse()
+print(cars)
 
