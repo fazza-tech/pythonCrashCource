@@ -52,7 +52,7 @@ print(f"hey {members[2]}, You still invited for pool party💃💃🎉.")
 
 #Use del to remove the last two names from your list, so you have an empty list. Print your list to make sure you actually have an empty list at the end of your program.
 print("Party Ended ❌❌❌❌")
-
+print(f"Im iviting {len(members)} members")
 del members[0]
 del members[0]
 del members[0]
