@@ -30,7 +30,16 @@ print(skip_nums)
 squares = []
 
 for value in range(1,11):
-    square = value**2
-    squares.append(square)
+    squares.append(value**2)
 
+print(squares)
+
+numbers = [1,2,3,4,5,6,7,8,9,0]
+
+print(min(numbers))
+print(max(numbers))
+print(sum(numbers))
+
+#List comprehensions
+squares = [value**2 for value in range(1,11)]
 print(squares)
