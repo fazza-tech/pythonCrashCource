@@ -43,3 +43,23 @@ print(sum(numbers))
 #List comprehensions
 squares = [value**2 for value in range(1,11)]
 print(squares)
+
+
+
+total = list(range(1,1000001))
+
+print(min(total))
+print(max(total))
+print(sum(total))
+
+odd = list(range(3,31,3))
+print(odd)
+
+
+cubes1 = []
+for value in range(1,11):
+    cubes1.append(value**3)
+print(cubes1)
+
+cubes = [value**3 for value in range(1,11)]
+print(cubes)
